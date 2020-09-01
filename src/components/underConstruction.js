@@ -97,7 +97,7 @@ const UnderConstruction = () => {
             
                 <h1>{intl.formatMessage({ id: "title" })}</h1>
                 <p>{intl.formatMessage({ id: "paragraph" })}</p>
-                <Button to={'/'}>{intl.formatMessage({ id: "button-title" })}</Button>
+                <Button href={"mailto: info@3allez.com"}>{intl.formatMessage({ id: "button-title" })}</Button>
             </ImageText>
         </ImageBackground>     
      );
